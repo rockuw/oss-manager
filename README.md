@@ -2,6 +2,16 @@
 
 A rails app demo for (the powerful) [OSS Ruby SDK][oss-ruby-sdk].
 
+##
+
+Get it running:
+
+    git clone git@gitlab.alibaba-inc.com:tianlong.wtl/oss-manager.git
+    cd oss-manager
+    bundle install
+    ./bin/rails server
+    # visit http://localhost:3000/buckets/
+
 ## More
 
 - Visit [Demo][oss-manager-demo] for test
