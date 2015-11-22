@@ -2,11 +2,12 @@
 
 A rails app demo for (the powerful) [OSS Ruby SDK][oss-ruby-sdk].
 
-##
+## Getting started
 
-Get it running:
+Run in your terminal:
 
     git clone git@gitlab.alibaba-inc.com:tianlong.wtl/oss-manager.git
+    gem install aliyun-sdk --clear-sources --source http://10.101.168.94:8808
     cd oss-manager
     bundle install
     ./bin/rails server
