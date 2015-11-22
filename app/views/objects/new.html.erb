@@ -1,7 +1,7 @@
 <h2>Upload object</h2>
 
-<table class="table table-striped">
-  <%= upload_form(@bucket, @options) do %>
+<%= upload_form(@bucket, @options) do %>
+  <table class="table table-striped">
     <tr>
       <td><label>Bucket:</label></td>
       <td><%= @bucket.name  %></td>
@@ -18,10 +18,10 @@
 
     <tr>
       <td colspan="2">
-        <button type="submit" class="btn btn-default">Upload</button>
+        <input type="submit" class="btn btn-default" value="Upload" />
         <span>&nbsp;&nbsp</span>
         <%= link_to 'Back', objects_path(@bucket_name, @prefix) %>
       </td>
     </tr>
-  <% end %>
-</table>
+  </table>
+<% end %>
