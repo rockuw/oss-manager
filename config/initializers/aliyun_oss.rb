@@ -8,6 +8,8 @@ module OSS
       @client = Aliyun::OSS::Client.new(
         endpoint:
           Rails.application.secrets.aliyun_oss['endpoint'],
+        cname:
+          Rails.application.secrets.aliyun_oss['cname'],
         access_key_id:
           Rails.application.secrets.aliyun_oss['access_key_id'],
         access_key_secret:
