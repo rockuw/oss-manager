@@ -16,6 +16,8 @@ Run in your terminal:
     git clone [THIS-REPO]
     cd oss-manager
     bundle install
+    mv config/secrets.yml.example config/secrets.yml
+    # Fill your OSS credentials in config/secrets.yml
     ./bin/rails server
     # visit http://localhost:3000/buckets/
 
